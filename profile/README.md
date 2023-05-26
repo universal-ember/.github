@@ -13,7 +13,7 @@ If you have a project that you'd like to share the maintenance burden of, messag
 All libraries within this org conform to these goals:
 - [SemVer](https://semver.org/) and [SemVer TS](https://www.semver-ts.org/) Compliant -- upgrade without surprises
 - Native npm packages (or v2 addons) -- allowing the addons to contain any number of components without cost to those who don't use every component (tree shakeable)
-- Fully glint compatible -- typed templates are the future, guiding folks to passing correct arguments and using the correct yields from a component
+- Fully [glint](https://typed-ember.gitbook.io/glint) compatible -- typed templates are the future, guiding folks to passing correct arguments and using the correct yields from a component
 - gjs/gts first -- when building components this way, components tend to be smaller, lighter, and easier to work with. from the consumer side of things, this means easy imports without lots of paths to manage
 - Derived Data focused -- whenever possible, components rely on derived data to manage state. No extra renders triggered by ember's equivelent(s) of `useEffect`.
 - Builds on the latest platform features -- no one _wants_ to maintain code, so when browsers ship something that make something easier, these libraries adopt it.
