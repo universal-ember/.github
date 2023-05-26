@@ -22,7 +22,7 @@ Capabilities can include:
 The goal is to aggregate and build an SDK of libraries that we all wish the web provided for us.
 We bring our own styles and additional use-case-specific behaviors on top of those libraries.
 
-## How does this org relate to [Adopted Ember Addons](https://github.com/adopted-ember-addons)
+## How does this org relates to [Adopted Ember Addons](https://github.com/adopted-ember-addons)
 
 This org has the same philosophy, maintenance strategy, and contribution model as Adopted Ember Addons.
 The difference is that this org is focused on UI primitives that can help build out design systems.
