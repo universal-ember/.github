@@ -18,6 +18,18 @@ All libraries within this org conform to these goals:
 - Derived Data focused -- whenever possible, components rely on derived data to manage state. No extra renders triggered by ember's equivelent(s) of `useEffect`.
 - Builds on the latest platform features -- no one _wants_ to maintain code, so when browsers ship something that make something easier, these libraries adopt it.
 
+## What exists elsewhere?
+
+(that meets the above tech goals)
+
+_Bring your own styles for..._
+- [Form](https://ember-headless-form.pages.dev/)
+- [Table](https://ember-headless-table.pages.dev/)
+
+## Related projects
+
+- [headless-ui](https://github.com/GavinJoyce/ember-headlessui/)
+
 ## What belongs here?
 
 Any library that provides UI abstractions without styling.
