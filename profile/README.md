@@ -1,5 +1,7 @@
 # Universal Ember
 
+**Building the primitives the Platform _should have had_ the whole time**.
+
 A common thought within companies about headless libraries, or "generic libraries" _at all, is that there is a fear of choosing a library, and over time, that library becoming abandoned. This has happened all over open source, and can be a motivator for folks _shying away_ from open source, and re-implementing everything themselves. 
 
 To help alleviate this fear, the _Universal Ember_ org has been created to help share ownership of libraries, to improve the bus factor beyond 1 person, or 1 company.
@@ -19,3 +21,8 @@ Capabilities can include:
  
 The goal is to aggregate and build an SDK of libraries that we all wish the web provided for us.
 We bring our own styles and additional use-case-specific behaviors on top of those libraries.
+
+## How does this org relate to [Adopted Ember Addons](https://github.com/adopted-ember-addons)
+
+This org has the same philosophy, maintenance strategy, and contribution model as Adopted Ember Addons.
+The difference is that this org is focused on UI primitives that can help build out design systems.
