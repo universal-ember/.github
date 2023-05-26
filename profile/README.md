@@ -20,13 +20,15 @@ All libraries within this org conform to these goals:
 
 ## What exists elsewhere?
 
-(that meets the above tech goals)
+These projects meet the above tech goals
 
 _Bring your own styles for..._
 - [Form](https://ember-headless-form.pages.dev/)
 - [Table](https://ember-headless-table.pages.dev/)
 
 ## Related projects
+
+These projects have similar design goals in augmenting The Platform, but may not meet the above tech goals
 
 - [headless-ui](https://github.com/GavinJoyce/ember-headlessui/)
 
