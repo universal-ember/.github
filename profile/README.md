@@ -37,4 +37,5 @@ We bring our own styles and additional use-case-specific behaviors on top of tho
 This org has the same philosophy, maintenance strategy, and contribution model as Adopted Ember Addons and is not meant to be a competitor.
 The difference is that this org is focused on UI primitives that can help build out design systems.
 This org will/does likely consume addons from Adopted Ember Addons, as there is a lot of really good stuff over there.
+Additionally, as time goes on, libraries from Universal Ember may be transferred to Adopted Ember Addons.
 
