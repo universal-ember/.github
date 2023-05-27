@@ -28,7 +28,7 @@ _Bring your own styles for..._
 
 ## Related projects
 
-These projects have similar design goals in augmenting The Platform, but may not meet the above tech goals
+These projects have similar design goals in augmenting The Platform, but may not have the same goals. Still good projects, but different goals.
 
 - [headless-ui](https://github.com/GavinJoyce/ember-headlessui/)
 
