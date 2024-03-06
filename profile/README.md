@@ -8,24 +8,6 @@ To help alleviate this fear, the _Universal Ember_ org has been created to help 
 
 If you have a project that you'd like to share the maintenance burden of, message me in the [Ember Discord](https://discord.com/invite/emberjs) `@NullVoxPopuli`, and we can help improve the busfactor, and help companies feel reassured in the decision to use a library under this org.
 
-## Packgaes 
-
-```mermaid
-flowchart LR  
-  subgraph "General Purpose"
-    ember-primitives-->preem
-    kolay
-    reactiveweb-->ember-primitives
-    preem
-    test-support
-  end
-  subgraph "External"
-    tutorial["Ember Tutorial"]
-    kolay-->tutorial
-  end
-
-```
-
 ## Tech
 
 All libraries within this org conform to these goals:
@@ -63,6 +45,57 @@ Capabilities can include:
  
 The goal is to aggregate and build an SDK of libraries that we all wish the web provided for us.
 We bring our own styles and additional use-case-specific behaviors on top of those libraries.
+
+
+## Packages 
+
+```mermaid
+flowchart LR  
+  ember-primitives-->preem
+  kolay
+  reactiveweb-->ember-primitives
+  test-support
+  
+  subgraph "@universal-ember"
+    kDocs[kolay's Docs]
+    epDocs[ember-primitive's Docs]
+  end
+  kolay-->kDocs
+  kolay-->epDocs
+  test-support-->kDocs
+  ember-primitives-->epDocs
+  test-support-->epDocs
+```
+
+## Relation to external projects
+
+All of the projects in `@universal-ember` can be used outside of this organization.
+
+```mermaid
+flowchart LR  
+  subgraph "General Purpose"
+    ember-primitives-->preem
+    kolay
+    reactiveweb-->ember-primitives
+    test-support
+  end
+
+  subgraph "External"
+    tutorial["&lt;template&gt; Tutorial"]
+    kolay-->tutorial
+    ember-primitives-->tutorial
+    reactiveweb-->tutorial
+    test-support-->tutorial
+    click tutorial "https://tutorial.glimdown.com" _blank
+  end
+
+  click ember-primitives "https://ember-primitives.pages.dev" _blank
+  click kolay "https://github.com/universal-ember/kolay/" _blank
+  click reactiveweb "https://reactive.nullvoxpopuli.com/" _blank
+
+
+```
+
 
 ## How does this org relates to [Adopted Ember Addons](https://github.com/adopted-ember-addons)
 
