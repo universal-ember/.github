@@ -65,6 +65,13 @@ flowchart LR
   test-support-->kDocs
   ember-primitives-->epDocs
   test-support-->epDocs
+
+  click tutorial "https://tutorial.glimdown.com" _blank
+  click ember-primitives "https://ember-primitives.pages.dev" _blank
+  click kolay "https://github.com/universal-ember/kolay/" _blank
+  click reactiveweb "https://reactive.nullvoxpopuli.com/" _blank
+  click test-support "https://github.com/universal-ember/test-support" _blank
+  click preem "https://github.com/universal-ember/preem/" _blank
 ```
 
 ## Relation to external projects
@@ -74,26 +81,27 @@ All of the projects in `@universal-ember` can be used outside of this organizati
 ```mermaid
 flowchart LR  
   subgraph "General Purpose"
-    ember-primitives-->preem
+    ember-primitives
     kolay
     reactiveweb-->ember-primitives
     test-support
   end
 
-  subgraph "External"
-    tutorial["&lt;template&gt; Tutorial"]
-    kolay-->tutorial
-    ember-primitives-->tutorial
-    reactiveweb-->tutorial
-    test-support-->tutorial
-    click tutorial "https://tutorial.glimdown.com" _blank
-  end
+  ember-primitives-->preem
 
+  tutorial["&lt;template&gt; Tutorial"]
+  kolay-->tutorial
+  ember-primitives-->tutorial
+  reactiveweb-->tutorial
+  test-support-->tutorial
+ 
+
+  click tutorial "https://tutorial.glimdown.com" _blank
   click ember-primitives "https://ember-primitives.pages.dev" _blank
   click kolay "https://github.com/universal-ember/kolay/" _blank
   click reactiveweb "https://reactive.nullvoxpopuli.com/" _blank
-
-
+  click test-support "https://github.com/universal-ember/test-support" _blank
+  click preem "https://github.com/universal-ember/preem/" _blank
 ```
 
 
