@@ -1,6 +1,6 @@
 # Universal Ember
 
-**Building the primitives T H E &nbsp;  P L A T F O R M _should have had_ the whole time**.
+**Building the primitives &nbsp; T H E &nbsp; P L A T F O R M &nbsp; _should have had_ the whole time**.
 
 A common thought within companies about headless libraries, or "generic libraries" _at all, is that there is a fear of choosing a library, and over time, that library becoming abandoned. This has happened all over open source, and can be a motivator for folks _shying away_ from open source, and re-implementing everything themselves. 
 
