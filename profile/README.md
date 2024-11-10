@@ -59,13 +59,17 @@ flowchart LR
   subgraph "@universal-ember"
     kDocs[kolay's Docs]
     epDocs[ember-primitive's Docs]
+    docs-support-->epDocs
+    test-support-->kDocs
   end
   kolay-->kDocs
   kolay-->epDocs
-  test-support-->kDocs
   ember-primitives-->epDocs
   test-support-->epDocs
+  kolay-->docs-support
+  ember-primitives-->docs-support
 
+  click docs-support "https://github.com/universal-ember/docs-support/" _blank
   click tutorial "https://tutorial.glimdown.com" _blank
   click ember-primitives "https://ember-primitives.pages.dev" _blank
   click kolay "https://github.com/universal-ember/kolay/" _blank
